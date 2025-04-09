@@ -6,8 +6,8 @@ const productSchema = new mongoose.Schema(
     name: { type: String, required: true, minlength: 1, maxlength: 200 },
     description: { type: String, required: true, minlength: 1, maxlength: 1000 },
     category: { type: String, required: true, minlength: 1, maxlength: 100 },
-    price: { type: Number, required: true, min: 0 }, // Assuming price cannot be negative
-    quantity: { type: Number, required: true, min: 0 }, // Assuming quantity cannot be negative
+    price: { type: Number, required: true, min: 0 }, 
+    quantity: { type: Number, required: true, min: 0 },
     condition: { type: String, enum: ["new", "used", "refurbished"], required: true },
     standards: { type: [String], default: [] },
     documents: { type: [String], default: [] },
