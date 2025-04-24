@@ -1,10 +1,11 @@
-// routes/authRoutes.j
+
 const { Router } = require('express');
-const { register, login } = require('../Controllers/authControllers');
+const { register, login, upgradeRole } = require('../Controllers/authControllers');
 const { authenticate } = require('../middleware/authMiddleware');
 
 const authRouter = Router();
-authRouter.post('/register',register);
+authRouter.post('/register',authenticate, register);
 authRouter.post('/login', login);
+authRouter.put('/upgrade-role', authenticate, upgradeRole); // secured
 
 module.exports = authRouter;
