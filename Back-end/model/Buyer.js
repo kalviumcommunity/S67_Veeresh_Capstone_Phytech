@@ -14,4 +14,5 @@ const buyerSchema = new Schema(
   { timestamps: true }
 );
 
-module.exports = model("Buyer", buyerSchema);
+const Buyer= model("Buyer", buyerSchema);
+module.exports = Buyer;

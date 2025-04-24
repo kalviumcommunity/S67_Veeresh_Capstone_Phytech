@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const {model} = require("mongoose")
 const sellerSchema = new mongoose.Schema(
   {
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "User ", required: true },
@@ -16,4 +17,5 @@ const sellerSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-module.exports = mongoose.model("Seller", sellerSchema);
+const Seller = model("Seller", sellerSchema);
+module.exports = Seller;
