@@ -45,3 +45,4 @@ Logic managed in: controllers/authControllers.js
 Logic encapsulated in: controllers/cartController.js.
 Logic handled in: controllers/productControll.js.
 
+deployed link :- https://backend-j6gi.onrender.com
