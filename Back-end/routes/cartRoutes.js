@@ -1,4 +1,6 @@
 const Cart = require('../model/Cart')
+
+const cartRouter = Router();
 cartRouter.get('/:userId', async (req, res) => {
     try {
       const cart = await Cart.findOne({ user: req.params.userId }).populate('items.product');
