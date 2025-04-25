@@ -45,4 +45,11 @@ Logic managed in: controllers/authControllers.js
 Logic encapsulated in: controllers/cartController.js.
 Logic handled in: controllers/productControll.js.
 
-Deployment link :- https://backend-j6gi.onrender.com
+
+deployed link :- https://backend-j6gi.onrender.com
+
+Day 5 :- Modular and clean structure for Mongoose models
+
+Schema definitions for MongoDB collections
+Easy integration into Express or other Node.js frameworks
+All Schema is in /Model folder which is inside the branch.
