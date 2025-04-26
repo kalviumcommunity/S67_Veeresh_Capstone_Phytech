@@ -1,6 +1,6 @@
 # Roadmap for PHYTECH
-day 1 :- Git hub initilisation done for my capstone project.
-day 2 :- get request done, in Controllers folder, productCController (get) request code written.
+Milestone 1 :- Git hub initilisation done for my capstone project.
+Milestone 2 :- get request done, in Controllers folder, productCController (get) request code written.
 GET /api/products
 Fetch all products available in the store.
 Request:
@@ -15,7 +15,7 @@ page (number): Pagination - page number.
 limit (number): Number of products per page.
 
 
-Day 3: Authentication, Product & Cart - POST APIs
+Milestone 3: Authentication, Product & Cart - POST APIs
 Milestone Summary:
 On Day 3, key backend functionalities were implemented for user authentication, product creation, and cart management. This milestone ensures that users can register, log in, add products (if authorized), and manage their shopping carts
 eatures Implemented:
@@ -31,11 +31,9 @@ POST /add — Adds one or more items to the user's cart.
 
 Logic is modularized in controllers/cartController.js and connected via routes/cartRoutes.js
 
-Day 4 :- PUT /cart/update – Update Quantity of a Product in the User’s Cart
-Updates the quantity of a specific product in the user's cart.
-Day 4: PUT APIs — Role Upgrade, Product Update & Cart Quantity Management
+Milestone 4: PUT APIs — Role Upgrade, Product Update & Cart Quantity Management
 🎯 Milestone Summary:
-On Day 4, core PUT operations were integrated into the backend. These APIs allow secure modification of user roles, product details, and shopping cart quantities. This milestone reinforces user access control and enhances flexibility in managing cart and product data.
+On milestone 4, core PUT operations were integrated into the backend. These APIs allow secure modification of user roles, product details, and shopping cart quantities. This milestone reinforces user access control and enhances flexibility in managing cart and product data.
 
 Features Implemented
 Authentication (/api/auth)
@@ -48,16 +46,19 @@ Logic handled in: controllers/productControll.js.
 
 deployed link :- https://backend-j6gi.onrender.com
 
-Day 5 :- Modular and clean structure for Mongoose models
+Milestone 5 :- Modular and clean structure for Mongoose models
 
 Schema definitions for MongoDB collections
 Easy integration into Express or other Node.js frameworks
 All Schema is in /Model folder which is inside the branch.
 
-Day 6 :- Database read and write performed
+Milestone 6 :- Database read and write performed
 This project includes full implementation of database read and write functionalities. All necessary CRUD (Create, Read, Update, Delete) operations are handled with optimized, secure queries. Data persistence and retrieval are fully operational and tested for reliability and efficiency.
 
 Key Features:
 Read Operations: Efficient retrieval of data with support for filtering and sorting.
 Write Operations: Safe and validated insertion of new records into the database.
 Update & Delete: Handled through robust logic to maintain data integrity.
+
+Milestone 6 :- Using JWTs in application.
+In Authentication folder, JWT verify code is there, while the user loging in it will very it, and if the user want to upgrade the by the help of token he can Upgradre his role, 1st step to upgrade role verfication, the  Upgrading the role.
