@@ -62,3 +62,4 @@ Update & Delete: Handled through robust logic to maintain data integrity.
 
 Milestone 6 :- Using JWTs in application.
 In Authentication folder, JWT verify code is there, while the user loging in it will very it, and if the user want to upgrade the by the help of token he can Upgradre his role, 1st step to upgrade role verfication, the  Upgrading the role.
+Milestoen 7:- Initialized a scalable React frontend application with a clean project structure and modern development tooling.
