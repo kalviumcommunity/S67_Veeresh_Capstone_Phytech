@@ -59,3 +59,6 @@ Key Features:
 Read Operations: Efficient retrieval of data with support for filtering and sorting.
 Write Operations: Safe and validated insertion of new records into the database.
 Update & Delete: Handled through robust logic to maintain data integrity.
+
+Milestone 6 :- Using JWTs in application.
+In Authentication folder, JWT verify code is there, while the user loging in it will very it, and if the user want to upgrade the by the help of token he can Upgradre his role, 1st step to upgrade role verfication, the  Upgrading the role.
