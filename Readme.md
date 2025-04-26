@@ -65,6 +65,9 @@ In Authentication folder, JWT verify code is there, while the user loging in it 
 
 Milestone 7:- Initialized a scalable React frontend application with a clean project structure and modern development tooling. Front-end
 
-Milestone 8 :- Front-end Deployment link :- https://spontaneous-sable-f1b9e5.netlify.app/
+Milestone 8:- Front-end Deployment link :- https://spontaneous-sable-f1b9e5.netlify.app/
 
 Milestone 9 :- Created Components in React, you can see my code in src and inside src (pages ) files are there.
+
+
+
