@@ -62,4 +62,12 @@ Update & Delete: Handled through robust logic to maintain data integrity.
 
 Milestone 6 :- Using JWTs in application.
 In Authentication folder, JWT verify code is there, while the user loging in it will very it, and if the user want to upgrade the by the help of token he can Upgradre his role, 1st step to upgrade role verfication, the  Upgrading the role.
-Milestoen 7:- Initialized a scalable React frontend application with a clean project structure and modern development tooling.
+
+Milestone 7:- Initialized a scalable React frontend application with a clean project structure and modern development tooling. Front-end
+
+Milestone 8:- Front-end Deployment link :- https://spontaneous-sable-f1b9e5.netlify.app/
+
+Milestone 9 :- Created Components in React, you can see my code in src and inside src (pages ) files are there.
+
+
+
