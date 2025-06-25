@@ -28,4 +28,4 @@ Milestone 6 :- Using JWTs in application. In Authentication folder, JWT verify c
 
 Mileston2 7:- Initialized a scalable React frontend application with a clean project structure and modern development tooling. Front-end
 
-Milestone 8:- Front-end Deployment link :- https://spontaneous-sable-f1b9e5.netlify.app/
+Milestone 8:- Front-end Deployment link :- https://685bd4cc5eccb9e6840f1624--hilarious-puppy-bd6e3e.netlify.app/
